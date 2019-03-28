@@ -1,21 +1,37 @@
 .eye--left {
   position: absolute;
   top: 28%;
-  left: 47%;
-  width: 10px;
-  height: 10px;
+  left: 45%;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;  
   background-color: black;
   box-shadow: inset 0px 0px 3px rgb(201, 171, 137);
+  
+  .center--left {
+    width: 5px;
+    height: 5px;
+    background-color: azure;
+    border-radius: 50%;
+    margin: 40% 0 0 25%;
+  }
 }
 
 .eye--right {
   position: absolute;
   top: 28%;
   left: 52%;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;  
   background-color: black;
   box-shadow: inset 0px 0px 3px rgb(201, 171, 137);
+
+  .center--right {
+    width: 5px;
+    height: 5px;
+    background-color: azure;
+    border-radius: 50%;
+    margin: 40% 0 0 25%;
+  }
 }
