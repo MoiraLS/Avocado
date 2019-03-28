@@ -1,0 +1,21 @@
+.eye--left {
+  position: absolute;
+  top: 28%;
+  left: 47%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;  
+  background-color: black;
+  box-shadow: inset 0px 0px 3px rgb(201, 171, 137);
+}
+
+.eye--right {
+  position: absolute;
+  top: 28%;
+  left: 52%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;  
+  background-color: black;
+  box-shadow: inset 0px 0px 3px rgb(201, 171, 137);
+}

@@ -1,0 +1,30 @@
+.avocado {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translateY(-50%) translateX(-50%);
+  width: 500px;
+  height: 500px;
+
+  .top {
+    width: 30%;
+    height: 35%;
+    border-radius: 70% 70% 60% 60%;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: rgb(150, 234, 155);
+  }
+
+  .bottom {
+    width: 40%;
+    height: 50%;
+    border-radius: 70% 70% 60% 60%;
+    position: relative;
+    top: 23%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: rgb(150, 234, 155);
+  }
+}
