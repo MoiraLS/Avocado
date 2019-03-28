@@ -1,0 +1,23 @@
+.border--top {
+  width: 33%;
+  height: 38%;
+  border-radius: 70% 70% 60% 60%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: rgb(78, 146, 83);
+  box-shadow: inset 0px 0px 10px rgb(88, 202, 95);
+}
+
+.border--bottom {
+  width: 43%;
+  height: 53%;
+  border-radius: 70% 70% 60% 60%;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: rgb(78, 146, 83);
+  box-shadow: inset 0px 0px 10px rgb(88, 202, 95);  
+}
