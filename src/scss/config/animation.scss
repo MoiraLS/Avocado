@@ -17,15 +17,23 @@
     transform: rotateZ(0);
   }
 
-  30% {
+  20% {
     transform: rotateZ(20deg);
   }
 
-  60% {
+  40% {
     transform: rotateZ(-20deg);
   }
 
-  to {
+  60% {
     transform: rotateZ(0);
+  }
+
+  75% {
+    transform: translateY(-10%) scale(1.1);
+  }
+
+  to {
+    transform: translateY(0) scale(1);
   }
 }
