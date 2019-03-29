@@ -5,6 +5,8 @@
 
   50% {
     border-radius: 300px 300px 300px 300px;
+    transform: scale(0.6);
+    left: 40%;
   }
 
   to {
@@ -30,10 +32,32 @@
   }
 
   75% {
-    transform: translateY(-10%) scale(1.1);
+    transform: translateY(-10%);
   }
 
   to {
-    transform: translateY(0) scale(1);
+    transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 58%;
+    left: 60%;
+  }
+
+  // 45% {
+  //   top: 52%;
+  //   left: 61%;
+  // }
+
+  50% {
+    top: 55%;
+    left: 61%;
+  }
+
+  100% {
+    top: 58%;
+    left: 62%;
   }
 }
