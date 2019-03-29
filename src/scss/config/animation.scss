@@ -40,24 +40,20 @@
   }
 }
 
-@keyframes jump {
-  0% {
-    top: 58%;
-    left: 60%;
+@keyframes blink {
+  from {
+    opacity: 1;
   }
 
-  // 45% {
-  //   top: 52%;
-  //   left: 61%;
-  // }
-
-  50% {
-    top: 55%;
-    left: 61%;
+  1% {
+    opacity: 0;
   }
 
-  100% {
-    top: 58%;
-    left: 62%;
+  20% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
   }
 }

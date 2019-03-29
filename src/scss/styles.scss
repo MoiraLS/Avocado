@@ -1,6 +1,7 @@
 @import "vendors/reset.scss";
 
 @import "config/animation.scss";
+@import "config/mixins.scss";
 
 @import "global/layout.scss";
 
@@ -10,3 +11,5 @@
 @import "blocs/eye.scss";
 @import "blocs/mouth.scss";
 @import "blocs/table.scss";
+@import "blocs/orange.scss";
+@import "blocs/dots.scss";

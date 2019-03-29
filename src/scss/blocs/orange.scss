@@ -1,0 +1,69 @@
+.orange {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(#f77944, #dd6b3a);
+  border-radius: 50%;
+  box-shadow: inset 0 0 30px #ee5f22;
+
+  .eyes {
+    @include eyes;
+    animation: 3s blink linear infinite;
+    .eye {
+      @include eye;
+      width: 20%;
+      height: 20%;
+      .ball {
+        @include ball;
+        top: 20%;
+        left: 50%;
+      }
+    }
+  }
+
+  .mouth {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 2%;
+    background: #c04916;
+  }
+
+  .light {
+    position: absolute;
+    top: 15%;
+    right: 12%;
+    transform: rotate(40deg);
+    width: 25%;
+    height: 8%;
+    background: radial-gradient(#f38657, #f0926a);
+    border-radius: 50%;
+    box-shadow: 0 0 5px #f77944;
+  }
+}
+
+.branch {
+  position: absolute;
+  top: -25%;
+  left: 30%;
+  transform: rotate(-20deg);
+  height: 30%;
+  width: 6%;
+  background-color: #815948;
+  border-radius: 20% 50% 50% 50% / 20% 50% 10% 10%;
+}
+
+.leaf {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  transform: rotate(-10deg);
+  width: 30%;
+  height: 15%;
+  background-color: #85e99e;
+  border-radius: 75% 0;
+}

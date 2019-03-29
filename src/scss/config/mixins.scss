@@ -1,0 +1,35 @@
+@mixin eyes {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 40%;
+  text-align: center;
+}
+
+@mixin eye {
+  background: #000000;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 12%;
+}
+
+@mixin ball {
+  width: 40%;
+  height: 40%;
+  background: #ffffff;
+  position: absolute;
+  border-radius: 50%;
+}
+
+@mixin dot {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: #d86b3c;
+  border-radius: 50%;
+  box-shadow: inset 0 0 2px #e74a4a, 0 0 10px #c53d0f;
+}

@@ -1,0 +1,41 @@
+.dot--one {
+  @include dot;
+  top: 60%;
+  left: 24%;
+}
+
+.dot--two {
+  @include dot;
+  top: 30%;
+  left: 80%;
+}
+
+.dot--three {
+  @include dot;
+  top: 65%;
+  left: 53%;
+}
+
+.dot--four {
+  @include dot;
+  top: 70%;
+  left: 37%;
+}
+
+.dot--five {
+  @include dot;
+  top: 85%;
+  left: 67%;
+}
+
+.dot--six {
+  @include dot;
+  top: 15%;
+  left: 25%;
+}
+
+.dot--seven {
+  @include dot;
+  top: 10%;
+  left: 55%;
+}
