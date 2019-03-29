@@ -1,0 +1,31 @@
+@keyframes mouth {
+  from {
+    border-radius: 0 0 300px 300px;
+  }
+
+  50% {
+    border-radius: 300px 300px 300px 300px;
+  }
+
+  to {
+    border-radius: 0 0 300px 300px;    
+  }
+}
+
+@keyframes move {
+  from {
+    transform: rotateZ(0);
+  }
+
+  30% {
+    transform: rotateZ(20deg);
+  }
+
+  60% {
+    transform: rotateZ(-20deg);
+  }
+
+  to {
+    transform: rotateZ(0);
+  }
+}
