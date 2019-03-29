@@ -6,25 +6,15 @@
   width: 500px;
   height: 500px;
 
-  .top {
-    width: 30%;
-    height: 30%;
-    border-radius: 50% 50% / 60% 60% 30% 30%;
+  .corps {
+    width: 93%;
+    height: 93%;
+    border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
     position: relative;
-    top: 33%;
+    top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    background-color: #95e79a;
-  }
-
-  .bottom {
-    width: 40%;
-    height: 45%;
-    border-radius: 40% 40% / 50% 50% 50% 50%;
-    position: relative;
-    top: 28%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    background-color: #95e79a;
+    background: radial-gradient(#c8e96e, #9de275);
+    box-shadow: inset 0 0 30px #77a35e;
   }
 }

@@ -1,23 +1,11 @@
-.border--top {
-  width: 33%;
-  height: 38%;
-  border-radius: 70% 70% 60% 60%;
+.border {
+  width: 60%;
+  height: 80%;
+  border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
   position: absolute;
   top: 35%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   background-color: #4e9253;
   box-shadow: inset 0px 0px 10px #3b633e;
-}
-
-.border--bottom {
-  width: 43%;
-  height: 50%;
-  border-radius: 40% 40% / 50% 50% 50% 50%;
-  position: absolute;
-  top: 58%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  background-color: #4e9253;
-  box-shadow: inset 0px 0px 10px #3b633e;  
 }

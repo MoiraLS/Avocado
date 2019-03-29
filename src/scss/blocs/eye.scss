@@ -1,16 +1,16 @@
 .eye--left {
   position: absolute;
   top: 28%;
-  left: 45%;
-  width: 15px;
-  height: 15px;
+  left: 30%;
+  width: 8%;
+  height: 6%;
   border-radius: 50%;  
-  background-color: black;
-  box-shadow: inset 0px 0px 3px rgb(201, 171, 137);
+  background-color: #1f1d1d;
+  box-shadow: inset 0px 0px 3px #000000, 0px 0px 15px #d7f88a;
   
   .center--left {
-    width: 5px;
-    height: 5px;
+    width: 40%;
+    height: 40%;
     background-color: azure;
     border-radius: 50%;
     margin: 40% 0 0 25%;
@@ -20,16 +20,16 @@
 .eye--right {
   position: absolute;
   top: 28%;
-  left: 52%;
-  width: 15px;
-  height: 15px;
+  left: 60%;
+  width: 8%;
+  height: 6%;
   border-radius: 50%;  
-  background-color: black;
-  box-shadow: inset 0px 0px 3px rgb(201, 171, 137);
+  background-color: #1f1d1d;
+  box-shadow: inset 0px 0px 3px #000000, 0px 0px 15px #d7f88a;
 
   .center--right {
-    width: 5px;
-    height: 5px;
+    width: 40%;
+    height: 40%;
     background-color: azure;
     border-radius: 50%;
     margin: 40% 0 0 25%;
