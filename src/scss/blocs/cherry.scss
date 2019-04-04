@@ -1,0 +1,39 @@
+.cherry {
+  position: absolute;
+  top: 75%;
+  right: 17%;
+  width: 6%;
+  height: 10%;
+  background: radial-gradient(#c53131, #dd1515);
+  border-radius: 50%;
+
+  .eyes {
+    @include eyes;
+    width: 85%;
+    height: 95%;
+
+    .eye {
+      @include eye;
+      width: 20%;
+      height: 15%;
+
+      .ball {
+        @include ball;
+        top: 20%;
+        left: 20%;
+      }
+    }
+  }
+
+  .mouth {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 18%;
+    height: 10%;
+    background-color: #c50b24;
+    box-shadow: inset 0 0 5px #7a1616;
+    border-radius: 0 0 300px 300px;
+  }
+}

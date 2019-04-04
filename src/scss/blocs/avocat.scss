@@ -17,4 +17,36 @@
     background: radial-gradient(#c8e96e, #cee275);
     box-shadow: inset 0 0 30px #77a35e;
   }
+
+  .eyes {
+    @include eyes;
+    width: 40%;
+    height: 40%;
+
+    .eye {
+      @include eye;
+      width: 20%;
+      height: 15%;
+
+      .ball {
+        @include ball;
+        top: 50%;
+        left: 50%;
+        transform: translate(50%, 50%);
+      }
+    }
+  }
+  
+  .mouth {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15%;
+    height: 8%;
+    background-color: #e76177;
+    border: 2px solid #d32f4a;
+    box-shadow: inset 0 0 10px #d32f4a;
+    animation: mouth 3s infinite;
+  }
 }

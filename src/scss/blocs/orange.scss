@@ -10,6 +10,8 @@
 
   .eyes {
     @include eyes;
+    width: 40%;
+    height: 40%;
     animation: 3s blink linear infinite;
     .eye {
       @include eye;
