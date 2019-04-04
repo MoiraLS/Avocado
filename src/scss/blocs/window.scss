@@ -1,0 +1,18 @@
+.window {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 30%;
+  background-color: #684837;
+  border-radius: 0 0 0 5%;
+
+  .pane {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 94%;
+    height: 90%;
+    background-color: #bce4e4;
+  }
+}
