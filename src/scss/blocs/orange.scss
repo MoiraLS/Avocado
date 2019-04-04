@@ -13,10 +13,12 @@
     width: 40%;
     height: 40%;
     animation: 3s blink linear infinite;
+
     .eye {
       @include eye;
       width: 20%;
       height: 20%;
+
       .ball {
         @include ball;
         top: 20%;
@@ -46,26 +48,26 @@
     border-radius: 50%;
     box-shadow: 0 0 5px #f77944;
   }
-}
 
-.branch {
-  position: absolute;
-  top: -25%;
-  left: 30%;
-  transform: rotate(-20deg);
-  height: 30%;
-  width: 6%;
-  background-color: #815948;
-  border-radius: 20% 50% 50% 50% / 20% 50% 10% 10%;
-}
+  .branch {
+    position: absolute;
+    top: -25%;
+    left: 30%;
+    transform: rotate(-20deg);
+    height: 30%;
+    width: 6%;
+    background-color: #815948;
+    border-radius: 20% 50% 50% 50% / 20% 50% 10% 10%;
+  }
 
-.leaf {
-  position: absolute;
-  top: -10%;
-  left: 0;
-  transform: rotate(-10deg);
-  width: 30%;
-  height: 15%;
-  background-color: #85e99e;
-  border-radius: 75% 0;
+  .leaf {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    transform: rotate(-10deg);
+    width: 30%;
+    height: 15%;
+    background-color: #85e99e;
+    border-radius: 75% 0;
+  }
 }
